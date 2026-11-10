@@ -6,7 +6,7 @@
  ║  🎨 CUSTOMIZAÇÃO:                                       ║
  ║  • Cores: Busque #00D97E (verde) / #58A6FF (azul)       ║
  ║  • Stats: Ajuste valores nos SVGs inline                ║
- ║  • Links: Atualize URLs no footer                       ║
+ ║  • Links: Atualize href="" nos ícones do footer         ║
  ╚══════════════════════════════════════════════════════════╝
 -->
 
@@ -66,7 +66,7 @@
 
 </div>
 
----
+<br/><br/><br/>
 
 ## ⚡ About Me
 
@@ -87,7 +87,7 @@ const matheus = {
 };
 ```
 
----
+<br/><br/><br/>
 
 ## 📊 Analytics Dashboard
 
@@ -221,8 +221,6 @@ const matheus = {
     <circle r="80" fill="none" stroke="#21262d" stroke-width="0.5"/>
     <circle r="105" fill="none" stroke="#21262d" stroke-width="0.5"/>
     <circle r="130" fill="none" stroke="#21262d" stroke-width="0.5"/>
-    <!-- Week dots (52 weeks, inner ring = Q1, outer = Q4) -->
-    <!-- Generating 52 dots at varying radii and angles with color intensity -->
     <!-- Q1 (weeks 1-13): inner ring -->
     <circle cx="0" cy="-35" r="4" fill="#00D97E" opacity="0.3" transform="rotate(0)"/>
     <circle cx="0" cy="-35" r="4" fill="#00D97E" opacity="0.5" transform="rotate(7)"/>
@@ -283,7 +281,6 @@ const matheus = {
     <text x="0" y="5" font-family="monospace" font-size="11" fill="#f0f6fc" text-anchor="middle" font-weight="700">1,247</text>
     <text x="0" y="18" font-family="monospace" font-size="8" fill="#8b949e" text-anchor="middle">commits</text>
   </g>
-  <!-- Legend -->
   <g transform="translate(620,260)" font-family="monospace" font-size="9">
     <text x="0" y="0" fill="#8b949e">Intensity:</text>
     <rect x="0" y="8" width="12" height="8" fill="#00D97E" opacity="0.3" rx="1"/><text x="18" y="15" fill="#8b949e">Low</text>
@@ -295,7 +292,7 @@ const matheus = {
 
 </div>
 
----
+<br/><br/><br/>
 
 ## 🛠️ Tech Stack
 
@@ -312,7 +309,6 @@ const matheus = {
   <text x="390" y="28" font-family="Inter,sans-serif" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">📊 Proficiency & Experience</text>
   
   <!-- Row 1 -->
-  <!-- TypeScript -->
   <g transform="translate(30,45)">
     <text x="0" y="14" font-family="monospace" font-size="11" fill="#f0f6fc" font-weight="600">TypeScript</text>
     <text x="220" y="14" font-family="monospace" font-size="9" fill="#8b949e">4 anos</text>
@@ -320,7 +316,6 @@ const matheus = {
     <rect x="0" y="20" width="216" height="6" fill="#00D97E" rx="3"/>
     <text x="248" y="27" font-family="monospace" font-size="9" fill="#00D97E">90%</text>
   </g>
-  <!-- React/Next.js -->
   <g transform="translate(290,45)">
     <text x="0" y="14" font-family="monospace" font-size="11" fill="#f0f6fc" font-weight="600">React / Next.js</text>
     <text x="220" y="14" font-family="monospace" font-size="9" fill="#8b949e">3 anos</text>
@@ -328,7 +323,6 @@ const matheus = {
     <rect x="0" y="20" width="204" height="6" fill="#58A6FF" rx="3"/>
     <text x="248" y="27" font-family="monospace" font-size="9" fill="#58A6FF">85%</text>
   </g>
-  <!-- Node.js -->
   <g transform="translate(550,45)">
     <text x="0" y="14" font-family="monospace" font-size="11" fill="#f0f6fc" font-weight="600">Node.js</text>
     <text x="170" y="14" font-family="monospace" font-size="9" fill="#8b949e">3 anos</text>
@@ -338,7 +332,6 @@ const matheus = {
   </g>
 
   <!-- Row 2 -->
-  <!-- Python -->
   <g transform="translate(30,100)">
     <text x="0" y="14" font-family="monospace" font-size="11" fill="#f0f6fc" font-weight="600">Python / Django</text>
     <text x="220" y="14" font-family="monospace" font-size="9" fill="#8b949e">3 anos</text>
@@ -346,7 +339,6 @@ const matheus = {
     <rect x="0" y="20" width="192" height="6" fill="#f78166" rx="3"/>
     <text x="248" y="27" font-family="monospace" font-size="9" fill="#f78166">80%</text>
   </g>
-  <!-- Java/Spring -->
   <g transform="translate(290,100)">
     <text x="0" y="14" font-family="monospace" font-size="11" fill="#f0f6fc" font-weight="600">Java / Spring</text>
     <text x="220" y="14" font-family="monospace" font-size="9" fill="#8b949e">2 anos</text>
@@ -354,7 +346,6 @@ const matheus = {
     <rect x="0" y="20" width="168" height="6" fill="#d2a8ff" rx="3"/>
     <text x="248" y="27" font-family="monospace" font-size="9" fill="#d2a8ff">70%</text>
   </g>
-  <!-- Docker/Linux -->
   <g transform="translate(550,100)">
     <text x="0" y="14" font-family="monospace" font-size="11" fill="#f0f6fc" font-weight="600">Docker / Linux</text>
     <text x="170" y="14" font-family="monospace" font-size="9" fill="#8b949e">2 anos</text>
@@ -364,7 +355,6 @@ const matheus = {
   </g>
 
   <!-- Row 3 -->
-  <!-- PostgreSQL -->
   <g transform="translate(30,155)">
     <text x="0" y="14" font-family="monospace" font-size="11" fill="#f0f6fc" font-weight="600">PostgreSQL</text>
     <text x="220" y="14" font-family="monospace" font-size="9" fill="#8b949e">3 anos</text>
@@ -372,7 +362,6 @@ const matheus = {
     <rect x="0" y="20" width="192" height="6" fill="#00D97E" rx="3"/>
     <text x="248" y="27" font-family="monospace" font-size="9" fill="#00D97E">80%</text>
   </g>
-  <!-- MongoDB -->
   <g transform="translate(290,155)">
     <text x="0" y="14" font-family="monospace" font-size="11" fill="#f0f6fc" font-weight="600">MongoDB</text>
     <text x="220" y="14" font-family="monospace" font-size="9" fill="#8b949e">2 anos</text>
@@ -380,7 +369,6 @@ const matheus = {
     <rect x="0" y="20" width="168" height="6" fill="#58A6FF" rx="3"/>
     <text x="248" y="27" font-family="monospace" font-size="9" fill="#58A6FF">70%</text>
   </g>
-  <!-- C#/C++ -->
   <g transform="translate(550,155)">
     <text x="0" y="14" font-family="monospace" font-size="11" fill="#f0f6fc" font-weight="600">C# / C++</text>
     <text x="170" y="14" font-family="monospace" font-size="9" fill="#8b949e">2 anos</text>
@@ -392,7 +380,7 @@ const matheus = {
 
 </div>
 
----
+<br/><br/><br/>
 
 ## 🚀 Featured Projects
 
@@ -469,77 +457,117 @@ const matheus = {
 
 </div>
 
----
+<br/><br/><br/>
 
 ## 🎯 Currently
 
 <div align="center">
 
-| | Status |
-|:---:|:---|
-| 🎯 | **Foco atual:** System Design & Distributed Systems |
-| 📚 | **Lendo:** Clean Architecture — Robert C. Martin |
-| 🎵 | **Codando com:** Lo-fi Hip Hop / Synthwave |
-| ☕ | **Status:** Caffeine Loading... ████░░ 80% |
+<!-- CURRENTLY STATUS CARDS SVG -->
+<svg width="100%" height="120" viewBox="0 0 780 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Card 1: Foco -->
+  <rect x="10" y="10" width="180" height="100" fill="#0D1117" rx="8" stroke="#30363D" stroke-width="1"/>
+  <text x="100" y="42" font-family="monospace" font-size="18" fill="#00D97E" text-anchor="middle">🎯</text>
+  <text x="100" y="62" font-family="Inter,sans-serif" font-size="9" fill="#8b949e" text-anchor="middle">FOCO ATUAL</text>
+  <text x="100" y="82" font-family="Inter,sans-serif" font-size="10" fill="#C9D1D9" text-anchor="middle" font-weight="600">System Design</text>
+  <text x="100" y="96" font-family="Inter,sans-serif" font-size="9" fill="#C9D1D9" text-anchor="middle">Distributed Systems</text>
+
+  <!-- Card 2: Leitura -->
+  <rect x="205" y="10" width="180" height="100" fill="#0D1117" rx="8" stroke="#30363D" stroke-width="1"/>
+  <text x="295" y="42" font-family="monospace" font-size="18" fill="#58A6FF" text-anchor="middle">📚</text>
+  <text x="295" y="62" font-family="Inter,sans-serif" font-size="9" fill="#8b949e" text-anchor="middle">LENDO</text>
+  <text x="295" y="82" font-family="Inter,sans-serif" font-size="10" fill="#C9D1D9" text-anchor="middle" font-weight="600">Clean Architecture</text>
+  <text x="295" y="96" font-family="Inter,sans-serif" font-size="9" fill="#C9D1D9" text-anchor="middle">Robert C. Martin</text>
+
+  <!-- Card 3: Música -->
+  <rect x="400" y="10" width="180" height="100" fill="#0D1117" rx="8" stroke="#30363D" stroke-width="1"/>
+  <text x="490" y="42" font-family="monospace" font-size="18" fill="#d2a8ff" text-anchor="middle">🎵</text>
+  <text x="490" y="62" font-family="Inter,sans-serif" font-size="9" fill="#8b949e" text-anchor="middle">CODANDO COM</text>
+  <text x="490" y="82" font-family="Inter,sans-serif" font-size="10" fill="#C9D1D9" text-anchor="middle" font-weight="600">Lo-fi Hip Hop</text>
+  <text x="490" y="96" font-family="Inter,sans-serif" font-size="9" fill="#C9D1D9" text-anchor="middle">Synthwave</text>
+
+  <!-- Card 4: Status -->
+  <rect x="595" y="10" width="175" height="100" fill="#0D1117" rx="8" stroke="#30363D" stroke-width="1"/>
+  <text x="682" y="42" font-family="monospace" font-size="18" fill="#f78166" text-anchor="middle">☕</text>
+  <text x="682" y="62" font-family="Inter,sans-serif" font-size="9" fill="#8b949e" text-anchor="middle">STATUS</text>
+  <text x="682" y="82" font-family="Inter,sans-serif" font-size="10" fill="#C9D1D9" text-anchor="middle" font-weight="600">Caffeine Loading</text>
+  <!-- Progress bar -->
+  <rect x="622" y="90" width="120" height="6" fill="#21262d" rx="3"/>
+  <rect x="622" y="90" width="96" height="6" fill="#f78166" rx="3"/>
+  <text x="682" y="105" font-family="monospace" font-size="8" fill="#8b949e" text-anchor="middle">80%</text>
+</svg>
 
 </div>
 
----
+<br/><br/><br/>
 
-## 📬 Let's Connect
+## Let's Connect
 
 <div align="center">
 
-<!-- SOCIAL ICONS SVG -->
-<svg width="100%" height="60" viewBox="0 0 600 60" xmlns="http://www.w3.org/2000/svg">
-  <!-- LinkedIn -->
-  <a href="https://linkedin.com/in/matheus-henrique" target="_blank">
-    <rect x="50" y="10" width="40" height="40" fill="#161b22" rx="8" stroke="#21262d"/>
-    <text x="70" y="37" font-family="monospace" font-size="18" fill="#0077B5" text-anchor="middle">in</text>
-  </a>
-  <!-- Email -->
-  <a href="mailto:matheus@matuzadev.dev" target="_blank">
-    <rect x="150" y="10" width="40" height="40" fill="#161b22" rx="8" stroke="#21262d"/>
-    <text x="170" y="37" font-family="monospace" font-size="16" fill="#00D97E" text-anchor="middle">@</text>
-  </a>
-  <!-- Twitter/X -->
-  <a href="https://x.com/matuzadev" target="_blank">
-    <rect x="250" y="10" width="40" height="40" fill="#161b22" rx="8" stroke="#21262d"/>
-    <text x="270" y="37" font-family="monospace" font-size="18" fill="#f0f6fc" text-anchor="middle" font-weight="800">X</text>
-  </a>
-  <!-- Portfolio -->
-  <a href="https://matuzadev.dev" target="_blank">
-    <rect x="350" y="10" width="40" height="40" fill="#161b22" rx="8" stroke="#21262d"/>
-    <text x="370" y="37" font-family="monospace" font-size="14" fill="#58A6FF" text-anchor="middle">www</text>
-  </a>
-  <!-- GitHub -->
-  <a href="https://github.com/matuzadev" target="_blank">
-    <rect x="450" y="10" width="40" height="40" fill="#161b22" rx="8" stroke="#21262d"/>
-    <text x="470" y="37" font-family="monospace" font-size="14" fill="#f0f6fc" text-anchor="middle">GH</text>
-  </a>
-</svg>
+<!-- SOCIAL ICONS - SVG Inline com hover via CSS -->
+<!-- LinkedIn -->
+<a href="https://www.linkedin.com/in/matuzadev/" target="_blank">
+  <svg height="32" viewBox="0 0 24 24" width="32" xmlns="http://www.w3.org/2000/svg" class="social-icon">
+    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="#58A6FF"/>
+  </svg>
+</a>
 
-<br/>
+&nbsp;&nbsp;
 
-<!-- VISITOR COUNTER -->
-<img src="https://komarev.com/ghpvc/?username=matuzadev&label=Profile+Views&color=00D97E&style=flat-square" alt="Profile Views"/>
+<!-- Email -->
+<a href="mailto:etuvcanal@gmail.com" target="_blank">
+  <svg height="32" viewBox="0 0 24 24" width="32" xmlns="http://www.w3.org/2000/svg" class="social-icon">
+    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#58A6FF"/>
+  </svg>
+</a>
 
-<br/><br/>
+&nbsp;&nbsp;
 
-<!-- SIGNATURE -->
-<p align="center">
-  <sub>Crafted with ☕ and 💻 by <b>matuzadev</b></sub><br/>
-  <sub><i>"1% better every day"</i></sub>
-</p>
+<!-- Twitter/X -->
+<a href="https://x.com/theonlybold" target="_blank">
+  <svg height="32" viewBox="0 0 24 24" width="32" xmlns="http://www.w3.org/2000/svg" class="social-icon">
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#58A6FF"/>
+  </svg>
+</a>
 
-<!-- DYNAMIC TIMESTAMP (GitHub Actions compatible) -->
-<p align="center">
-  <sub>Last updated: <!-- LAST_UPDATED -->Nov 2026<!-- /LAST_UPDATED --></sub>
-</p>
+&nbsp;&nbsp;
+
+<!-- Portfolio -->
+<a href="https://portfolio-matheus-h.vercel.app/" target="_blank">
+  <svg height="32" viewBox="0 0 24 24" width="32" xmlns="http://www.w3.org/2000/svg" class="social-icon">
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" fill="#58A6FF"/>
+  </svg>
+</a>
+
+&nbsp;&nbsp;
+
+<!-- GitHub -->
+<a href="https://github.com/matuzadev" target="_blank">
+  <svg height="32" viewBox="0 0 24 24" width="32" xmlns="http://www.w3.org/2000/svg" class="social-icon">
+    <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.419-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" fill="#58A6FF"/>
+  </svg>
+</a>
 
 </div>
 
----
+<br/><br/>
+
+<!-- VISITOR COUNTER -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=matuzadev&label=Profile+Views&color=0d1117&style=for-the-badge&logo=eye&logoColor=00D97E" alt="Profile Views"/>
+</div>
+
+<br/><br/>
+
+<!-- SIGNATURE + TIMESTAMP -->
+<div align="right">
+  <sub style="color:#8B949E">Crafted with ☕ and 💻 by <b>matuzadev</b></sub><br/>
+  <sub style="color:#8B949E"><i>"1% better every day"</i></sub><br/>
+  <sub style="color:#8B949E">Last updated: <!-- LAST_UPDATED -->Nov 2026<!-- /LAST_UPDATED --></sub>
+</div>
+
+<br/>
 
 <!-- 
 ╔══════════════════════════════════════════════════════════╗
@@ -552,20 +580,23 @@ const matheus = {
 ║  • Background: #0d1117 → altere nos retângulos SVG      ║
 ║  • Texto: #f0f6fc → altere nos elementos <text>         ║
 ║                                                          ║
-║  TEXTOS:                                                 ║
-║  • Nome/subtítulo: edite dentro das tags <text> do      ║
-║    header SVG                                            ║
-║  • Bloco JS: edite dentro do ```javascript```           ║
-║  • Projetos: altere nomes/descrições nos SVGs cards     ║
+║  LINKS DO FOOTER:                                        ║
+║  • LinkedIn: href="https://linkedin.com/in/SEU-PERFIL"  ║
+║  • Email: href="mailto:seu@email.com"                   ║
+║  • Twitter/X: href="https://x.com/SEU-USUARIO"          ║
+║  • Portfolio: href="https://seu-site.com"               ║
+║  • GitHub: href="https://github.com/SEU-USUARIO"        ║
+║                                                          ║
+║  HOVER EFFECT:                                           ║
+║  • GitHub não suporta CSS :hover em SVGs inline.        ║
+║  • Os ícones usam fill="#58A6FF" como cor padrão.       ║
+║  • Para trocar a cor, altere o atributo fill="" em      ║
+║    cada <path> dos ícones sociais.                      ║
 ║                                                          ║
 ║  STATS:                                                  ║
 ║  • GitHub Stats: mude username= na URL da imagem        ║
 ║  • Streak: mude user= na URL                            ║
 ║  • Valores mock: edite widths e textos nos SVGs         ║
-║                                                          ║
-║  LINKS:                                                  ║
-║  • Footer: atualize href="" nos <a> dos ícones sociais  ║
-║  • Projetos: atualize URLs nos textos inferiores        ║
 ║                                                          ║
 ║  TIMESTAMP DINÂMICO:                                     ║
 ║  • Crie .github/workflows/update-readme.yml com:        ║
