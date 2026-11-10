@@ -1,14 +1,14 @@
 <!-- 
-  ╔══════════════════════════════════════════════════════════╗
-  ║  README.md — Matheus Henrique (@matuzadev)              ║
-  ║  Full Stack Engineer · Clean Code Advocate              ║
-  ║                                                          ║
-  ║  🎨 CUSTOMIZAÇÃO:                                        ║
-  ║  • Cores: Busque por #00D97E (verde neon) e troque       ║
-  ║  • Textos: Edite os blocos de texto entre as tags        ║
-  ║  • Stats: Ajuste valores nos SVGs inline                 ║
-  ║  • Links: Atualize URLs no footer                        ║
-  ╚══════════════════════════════════════════════════════════╝
+ ╔══════════════════════════════════════════════════════════╗
+ ║  README.md — Matheus Henrique (@matuzadev)             ║
+ ║  Full Stack Engineer · Clean Code Advocate               ║
+ ║                                                          ║
+ ║  🎨 CUSTOMIZAÇÃO:                                        ║
+ ║  • Cores: Busque por #00D97E (verde neon) e troque       ║
+ ║  • Textos: Edite os blocos de texto entre as tags        ║
+ ║  • Stats: Ajuste valores nos SVGs inline                 ║
+ ║  • Links: Atualize URLs no footer                        ║
+ ╚══════════════════════════════════════════════════════════╝
 -->
 
 <div align="center">
@@ -92,15 +92,15 @@
 │                    🏗️  TECH ARCHITECTURE                     │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│   FRONTEND          BACKEND           INFRASTRUCTURE        │
-│   ─────────         ───────           ──────────────        │
-│   React/Next.js     Node.js/Django    Docker                │
-│   TypeScript        Spring Boot       Linux                 │
-│   Modern CSS        REST/GraphQL      PostgreSQL/MongoDB    │
+│   FRONTEND            BACKEND           INFRASTRUCTURE      │
+│   ─────────           ───────           ──────────────      │
+│   React/Next.js       Node.js/Django    Docker              │
+│   TypeScript          Spring Boot       Linux               │
+│   Modern CSS          REST/GraphQL      PostgreSQL/MongoDB  │
 │                                                             │
-│              ╔═══════════════════════════╗                   │
-│              ║   CLEAN CODE · 1% BETTER  ║                   │
-│              ╚═══════════════════════════╝                   │
+│          ╔═══════════════════════════╗                      │
+│          ║  CLEAN CODE · 1% BETTER   ║                      │
+│          ╚═══════════════════════════╝                      │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 </pre>
@@ -260,68 +260,4 @@ const matheus = {
     <text x="18" y="10" font-family="monospace" font-size="10" fill="#8b949e">High Focus</text>
     <rect x="0" y="18" width="12" height="12" fill="#58A6FF" rx="2" opacity="0.7"/>
     <text x="18" y="28" font-family="monospace" font-size="10" fill="#8b949e">Medium</text>
-    <rect x="0" y="36" width="12" height="12" fill="#21262d" rx="2"/>
-    <text x="18" y="46" font-family="monospace" font-size="10" fill="#8b949e">Low</text>
-  </g>
-</svg>
-
-</details>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════
-     TECH STACK EVOLUTION TIMELINE
-     ═══════════════════════════════════════════════════════════ -->
-<details open>
-<summary align="left"><b>📅 Tech Stack Evolution</b></summary>
-<br/>
-
-<svg width="100%" height="280" viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="280" fill="#0d1117" rx="8"/>
-  
-  <text x="30" y="30" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#f0f6fc">🚀 Learning Journey Timeline</text>
-  
-  <!-- Linha do tempo horizontal -->
-  <line x1="60" y1="140" x2="740" y2="140" stroke="#21262d" stroke-width="2"/>
-  
-  <!-- Marcadores de ano -->
-  <g font-family="monospace" font-size="11" fill="#8b949e" text-anchor="middle">
-    <text x="100" y="165">2019</text>
-    <text x="220" y="165">2020</text>
-    <text x="340" y="165">2021</text>
-    <text x="460" y="165">2022</text>
-    <text x="580" y="165">2023</text>
-    <text x="700" y="165">2024</text>
-  </g>
-  
-  <!-- Pontos na timeline -->
-  <circle cx="100" cy="140" r="6" fill="#58A6FF"/>
-  <circle cx="220" cy="140" r="6" fill="#00D97E"/>
-  <circle cx="340" cy="140" r="6" fill="#58A6FF"/>
-  <circle cx="460" cy="140" r="6" fill="#00D97E"/>
-  <circle cx="580" cy="140" r="6" fill="#58A6FF"/>
-  <circle cx="700" cy="140" r="6" fill="#00D97E"/>
-  
-  <!-- Tecnologias acima da linha -->
-  <g font-family="'Inter', sans-serif" font-size="11" fill="#f0f6fc">
-    <!-- 2019 -->
-    <text x="100" y="100" text-anchor="middle" font-weight="600">JavaScript</text>
-    <text x="100" y="115" text-anchor="middle" font-size="9" fill="#8b949e">Início</text>
-    <line x1="100" y1="120" x2="100" y2="134" stroke="#58A6FF" stroke-width="1" stroke-dasharray="3"/>
-    
-    <!-- 2021 -->
-    <text x="340" y="80" text-anchor="middle" font-weight="600">React/Node</text>
-    <text x="340" y="95" text-anchor="middle" font-size="9" fill="#8b949e">Full Stack</text>
-    <line x1="340" y1="100" x2="340" y2="134" stroke="#58A6FF" stroke-width="1" stroke-dasharray="3"/>
-    
-    <!-- 2023 -->
-    <text x="580" y="100" text-anchor="middle" font-weight="600">System Design</text>
-    <text x="580" y="115" text-anchor="middle" font-size="9" fill="#8b949e">Architecture</text>
-    <line x1="580" y1="120" x2="580" y2="134" stroke="#58A6FF" stroke-width="1" stroke-dasharray="3"/>
-  </g>
-  
-  <!-- Tecnologias abaixo da linha -->
-  <g font-family="'Inter', sans-serif" font-size="11" fill="#f0f6fc">
-    <!-- 2020 -->
-    <text x="220" y="195" text-anchor="middle" font-weight="600">Python/Java</text>
-    <text x="220" y="210" text-anchor="middle
+    <rect x="0" y="36" width="12" height="12"
